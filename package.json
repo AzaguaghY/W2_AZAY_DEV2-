@@ -1,0 +1,22 @@
+{
+  "name": "w2_azay_dev2",
+  "version": "1.0.0",
+  "description": "// Devoir 2\r // Fait par Youssef Azaguagh\r // Le 11-11-2024",
+  "main": "dev2.js",
+  "scripts": {
+    "start": "node dev2.js",
+    "dev": "nodemon dev2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-ejs-layouts": "^2.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
+

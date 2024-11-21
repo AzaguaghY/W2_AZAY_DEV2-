@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .header {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .header img {
+            width: 120px;
+            margin-bottom: 15px;
+        }
+        .header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        h2 {
+            color: #343a40;
+        }
+        .icon {
+            font-size: 60px;
+            color: #D22530;
+            margin-bottom: 20px;
+        }
+        .button-container {
+            margin-top: 40px;
+        }
+        .btn {
+            font-size: 1.2rem;
+            padding: 15px 30px;
+            margin-bottom: 20px;
+            width: 70%;
+        }
+        .btn i {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- En-tête avec le logo -->
+    <header class="header">
+        <img src="https://clg.qc.ca/wp-content/themes/clg.qc.ca/dist/images/logo.svg" alt="Logo du collège Lionel Groulx">
+        <h1>Page d'accueil du cours Programmation Web 2</h1>
+    </header>
+
+    <!-- Contenu principal -->
+    <div class="container text-center">
+        <!-- Titre secondaire -->
+        <h2>Travail pratique 1</h2>
+        
+        <!-- Icônes décoratives -->
+        <div class="icon">
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="icon">
+            <i class="fa-sharp-duotone fa-light fa-cabin"></i>
+        </div>
+
+        <!-- Boutons de navigation -->
+        <div class="button-container">
+            <a href="/usagers" class="btn btn-primary">
+                <i class="fas fa-users"></i> Gestion des Usagers
+            </a>
+            <a href="/livres" class="btn btn-secondary">
+                <i class="fas fa-book"></i> Gestion des Livres
+            </a>
+            <a href="/quitter" class="btn btn-danger">
+                <i class="fas fa-sign-out-alt"></i> Se Déconnecter
+            </a>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
